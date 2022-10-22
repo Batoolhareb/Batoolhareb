@@ -1,0 +1,199 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none; /* universal on all a */
+}
+
+.header,
+.main-wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+.top-area-wrapper {
+    background: url("images/banner.png");
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    margin: 0; /* removing default margin (top and bottom from h2 under logo*/
+    text-transform: uppercase;
+}
+
+.header nav {
+    float: right;
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu li:first-child,
+.menu li:hover,
+.menu li.selected {
+    border-bottom: 1px solid #fff;
+}
+
+.slogan {
+    text-align: center;
+    padding: 40px 0 80px;
+}
+
+.slogan h3 {
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+.watch-video {
+    color: #ffd407;
+    line-height: 30px;
+}
+
+.play {
+    border-radius: 50%;
+    height: 30px;
+    width: auto;
+    border: 2px solid white;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.main-wrapper {
+    margin-top: 30px;
+}
+
+.about-us {
+    margin-bottom: 60px;
+}
+
+.left-side,
+.right-side {
+    width: 500px;
+}
+
+.left-side {
+    float: left;
+    margin-right: 24px;
+}
+
+.yellow-box {
+    background-color: #ffd407;
+    padding: 40px;
+    font-size: 20px;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+
+.yellow-box a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 20px;
+    color: #000;
+    background-color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 6px -1px #000;
+}
+
+.served-number {
+    font-size: 200%;
+}
+
+.right-side {
+    float: right;
+}
+
+.right-side h2 {
+    margin-top: 0;
+}
+
+.right-side a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ffd407;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 1px 1px 6px -1px #000;
+}
+
+.services {
+    margin-bottom: 40px;
+}
+
+.col {
+    width: 330px;
+    margin-right: 17px;
+    float: left;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+
+.card {
+    padding-left: 60px;
+    position: relative;
+}
+
+.card i {
+    color: #ffd407;
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.card p {
+    margin-top: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6em;
+}
+
+.card a {
+    text-decoration: underline;
+    color: #ffd407;
+    font-size: 12px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
